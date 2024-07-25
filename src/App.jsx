@@ -5,8 +5,8 @@ import './App.css'
 
 export default function App() {
 
-  const [from, setFrom] = useState("usd") //label of input box
-  const [to, setTo] = useState("inr") //label of input box
+  const [from, setFrom] = useState("inr") //label of input box
+  const [to, setTo] = useState("usd") //label of input box
 
   const [amount, setAmount] =useState() //amount entered in from input box
   const [convertedAmount, setConvertedAmount] = useState() //converted amount shown in to input box 
@@ -35,7 +35,7 @@ export default function App() {
           backgroundImage: `url('https://img.freepik.com/premium-vector/money-transfer-global-currency-stock-exchange-stock-vector-illustration_115579-1490.jpg?w=996')`,
       }}
     >
-        <div className="m-2">
+        <div className="m-20">
             <div className="w-full max-w-md mx-auto border border-gray-60 rounded-lg p-8 backdrop-blur-sm bg-white/30">
                 <form
                     onSubmit={(e) => {
